@@ -1,0 +1,18 @@
+body {
+    font-family: "Roboto";
+}
+
+.hero, footer{
+    background-color: #1F2937;
+}
+
+h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.link, .hero_secondary{
+    font-size: 18px;
+    color: #E6E7EB;
+}
