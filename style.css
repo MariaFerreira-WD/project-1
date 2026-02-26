@@ -1,5 +1,7 @@
-body {
+* {
     font-family: "Roboto";
+    margin: 0;
+    padding: 0;
 }
 
 .hero, footer{
@@ -10,9 +12,48 @@ h1 {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
+    margin:0;
+}
+
+a{
+    text-decoration: none;
+    color: #E6E7EB; 
+
 }
 
 .link, .hero_secondary{
     font-size: 18px;
     color: #E6E7EB;
+}
+
+button, .cta{
+    background-color:#3882F6;
+}
+
+h2 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.quote {
+    background-color: #E5E7Eb;
+}
+
+#quote_text{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+}
+
+#coffe-brand {
+    width: 400px;
+    height: auto;
+}
+
+.brand {
+    width: 150px;
+    height: auto;
+    border: 5px solid #3882F6;
+    border-radius: 5%;
 }
